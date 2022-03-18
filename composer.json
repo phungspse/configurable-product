@@ -1,0 +1,24 @@
+{
+  "name": "phungspse/configurable-product",
+  "description": "show price for configurable product when all children are out of stock.",
+  "require": {
+    "magento/module-configurable-product": "^100.4.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Phung Duong",
+      "email": "phungspse@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PhungSpse\\ConfigurableProduct\\": ""
+    }
+  }
+}

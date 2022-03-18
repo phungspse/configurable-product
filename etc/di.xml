@@ -1,0 +1,5 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Block\Product\ListProduct">
+        <plugin name="PhungSpse_ConfigurableProduct_Plugin_ListProduct" type="PhungSpse\ConfigurableProduct\Plugin\Block\Product\ListProduct"/>
+    </type>
+</config>
